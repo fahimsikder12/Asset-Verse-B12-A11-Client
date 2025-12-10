@@ -1,7 +1,7 @@
 import React, { use } from 'react'
 import { AuthContext } from '../context/AuthContext'
 import { Navigate, useLocation } from 'react-router';
-import Lading from '../page/Lading';
+import Lading from '../Page/Lading';
 
 function PrivetRouter({children}) {
 
