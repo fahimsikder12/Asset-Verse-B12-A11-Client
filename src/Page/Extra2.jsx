@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 function Extra2() {
   return (

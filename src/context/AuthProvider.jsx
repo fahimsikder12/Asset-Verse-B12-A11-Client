@@ -2,7 +2,7 @@ import { AuthContext } from './AuthContext'
 import Swal from 'sweetalert2';
 import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from 'firebase/auth';
 import { useEffect, useState } from 'react';
-import { auth} from '../firebase/firebase.init';
+import { auth} from '../firebase/firebase.config';
 const provider = new GoogleAuthProvider();
 
 function AuthProvider({children}) {

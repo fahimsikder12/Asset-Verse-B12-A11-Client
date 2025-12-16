@@ -5,7 +5,7 @@ import { Link, useLocation, useNavigate } from "react-router";
 import Swal from "sweetalert2";
 import { AuthContext } from "../context/AuthContext";
 import { updateProfile } from "firebase/auth";
-import { auth } from "../firebase/firebase.init";
+import { auth } from "../firebase/firebase.config";
 
 function Register() {
   const navigate = useNavigate();

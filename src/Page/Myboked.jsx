@@ -1,10 +1,7 @@
- 
-
- import { AuthContext } from '../context/AuthContext'
+import { AuthContext } from '../context/AuthContext'
 import axios from 'axios';
-import BokedCart from './BokedCart';
+import BokedCart from '../page/BokedCart';
 import { use, useEffect, useState } from 'react';
-import { Helmet } from 'react-helmet';
 
 function Myboked() {
     const {user}=use(AuthContext)
